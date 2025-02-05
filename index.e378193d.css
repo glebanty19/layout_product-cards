@@ -1,0 +1,120 @@
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 198px;
+  height: 406px;
+  box-shadow: 0 4px 10px #0000001a;
+}
+
+.card__image {
+  border-radius: 10px;
+  width: 160px;
+  height: 134px;
+  margin: 32px 19px 40px;
+  display: block;
+}
+
+.card__title {
+  color: #060b35;
+  margin: 0 16px 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__code {
+  color: #616070;
+  margin: 0 16px 16px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__rating {
+  align-items: center;
+  margin: 0 16px 24px;
+  display: flex;
+}
+
+.card__reviews {
+  color: #060b35;
+  margin: 0 0 0 auto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__price-block {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 16px 16px;
+  display: flex;
+}
+
+.card__price-label {
+  color: #616070;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card__price-value {
+  color: #060b35;
+  margin: 0 0 0 auto;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 18px;
+}
+
+.card__button {
+  color: #fff;
+  text-align: center;
+  background-color: #00acdc;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+  height: 40px;
+  margin: 0 16px 16px;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  transition: all .3s;
+  display: flex;
+}
+
+.card__button:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: solid #00acdc;
+}
+
+.rating {
+  display: flex;
+}
+
+.rating__container {
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  display: flex;
+}
+
+.rating__star {
+  background-image: url("star-active.2be54011.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+}
+
+.rating__star--inactive {
+  background-image: url("star.fa806e3c.svg");
+}
+/*# sourceMappingURL=index.e378193d.css.map */
